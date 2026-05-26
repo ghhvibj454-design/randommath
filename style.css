@@ -1,0 +1,55 @@
+html{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    background: linear-gradient(rgb(36, 36, 36),rgb(0, 0, 0));
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#divhone{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:15%;
+    width: 100%;
+}
+#divresult{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+    min-height: 4rem;
+    width: 100%;
+    font-size: 1rem;
+}
+#divbtn{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3rem;
+    width: 100%;
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1rem;
+    height: 100%;
+    width: 30%;
+    border: solid 0.1rem;
+    background-color: rgba(199, 60, 36, 0.646);
+    border-radius: 1.6rem;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+h1{
+font-family:'Courier New', Courier, monospace;
+color:rgba(213, 42, 42, 0.656)
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgba(218, 47, 47, 0.788);
+    height: 100%;
+}

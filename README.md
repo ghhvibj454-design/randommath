@@ -1,0 +1,2 @@
+# randommath
+ first Math.random
